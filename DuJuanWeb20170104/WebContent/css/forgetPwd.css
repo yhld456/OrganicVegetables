@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/*忘记密码，修改密码的页面*/
+
+/*最大的盒子，此页面没有左边的栏目*/
+.forgetPwdMax{
+	width: 1000px;
+	height: auto;
+}
+
+
+/*标题的盒子*/
+.forgetPwdTitle{
+	width: 1000px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/*标题的文字*/
+.forgetPwdTitleText{
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*修改密码表单的盒子*/
+.updatePwd{
+	width: 1000px;
+	height: auto;
+}
+
+
+
+/*修改密码的表格的*/
+.forgetPwdTab{
+	width: 1000px;
+	height: auto;
+	text-align: right;
+	line-height: 40px;
+}
+
+/*表格的右边单元格*/
+.sheel6{
+	width: 600px;
+	text-align: left;
+}
+
+/*表单的文本框*/
+.forgetPwdTab input{
+	width: 400px;
+	height: auto;
+}
+
+/*提交按钮*/
+.submitButton{
+	width: 1000px;
+	height: 100px;
+	text-align: center;
+}
+
+.submitButton input{
+	margin-left: 100px;
+}

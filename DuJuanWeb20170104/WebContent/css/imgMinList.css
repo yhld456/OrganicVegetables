@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+/*图片小列表*/
+
+/*大盒子*/
+.list{
+	width:258px;
+	height:1124px;
+}
+
+/*标题*/
+.listTitle{
+	width:258px;
+	height:44px;
+	line-height:44px;
+	overflow:hidden;  /*防止换行*/
+	}
+	
+/*标题文字*/
+.listTitleText{
+	width:180px;
+	height:44px;
+	float:left;
+	margin-left:10px;}
+	
+/*更多*/
+.listTitleMore{
+	width:60px;
+	height:44px;
+	float:left;}
+	
+/*列表盒子*/
+.listContentList {
+	width: 258px;
+	height: 1080px;
+	/*22.9px*/
+	/*background-color: #F9F9F9;*/
+}
+
+	
+/*列表的连接*/
+.listContentHref {
+	width: 258px;
+	height: 180px;
+	text-align: center;
+}
+
+/*列表的表格*/
+.tables{
+	text-align: center;
+}
+
+/*图片*/
+.imgTabble {
+	width: 229px;
+	height: 150px;
+}
+
+/*文字*/
+.textTable{
+	width: 150px;
+	height: 24px;
+}
+

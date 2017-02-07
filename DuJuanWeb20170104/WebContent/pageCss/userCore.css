@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+/*会员中心*/
+/* 最大的盒子 */
+.userCoreMax{
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+
+/* 中间左 */
+.left{
+	width: 160px;
+	height: auto;
+	float: left;
+}
+
+
+/* 中间右 */
+.right{
+	width: 788px;
+	height: auto;
+	float: left;
+	margin-left: 52px;
+}

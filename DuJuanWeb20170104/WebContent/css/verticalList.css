@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+
+/*竖版小列表*/
+
+/*大容器*/
+.list {
+	width: 258px;
+	height: 296px;
+}
+
+/*标题*/
+.listTitle {
+	width: 258px;
+	height: 44px;
+	line-height: 44px;
+	overflow: hidden;
+	/*防止换行*/
+}
+
+/*标题文字*/
+.listTitleText {
+	width: 180px;
+	height: 44px;
+	float: left;
+	margin-left: 10px;
+}
+
+/*更多*/
+.listTitleMore {
+	width: 60px;
+	height: 44px;
+	float: left;
+}
+
+/*列表*/
+.listContent {
+	height: 252px;
+}
+
+
+
+
+/*一个内容*/
+.listContentOne {
+	width: 258px;
+	height: 22.9px;
+	line-height: 22.9px;
+}
+
+/*项目符号*/
+.listContentOneSymbol {
+	width: 12px;
+	height: 7px;
+	float: left;
+	background-position: center;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}

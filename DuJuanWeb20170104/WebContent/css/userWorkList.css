@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/*用户文章列表*/
+
+/*最大的盒子*/
+.userWorkListMax{
+	width: 788px;
+	height: auto;
+}
+
+/*表格的盒子*/
+.userWorkListTab{
+	width: 788px;
+	height: auto;
+}
+
+/*表格*/
+.userWorkListTab table{
+	width: 788px;
+	height: auto;
+}
+
+/*表格的单元格*/
+.userWorkListTab td{
+	border: 1px solid;
+	text-align: center;
+}
+
+
+

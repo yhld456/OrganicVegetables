@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+/*首页*/
+
+
+/*最大的盒子 */
+.indexMax{
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+
+/* 左边的 */
+.left{
+	width: 741px;
+	height: auto;
+	float: left;
+}
+/* 图片滚动 */
+.imgRoll{
+	width: 732px;
+	height: 135px;
+}
+
+/* 横版小列表 */
+.horizontalList{
+	width: 732px;
+	height: 349.6px;
+	margin-top: 10px;
+}
+
+/* 横版小列表中的一个 */
+.horizontal1,.horizontal2,.horizontal3,.horizontal4{
+	width: 358px;
+	height: 166.8px;
+	float: left;
+}
+/* 让右边的两个小列表距离左边的16px */
+.horizontal2,.horizontal4{
+	margin-left: 16px;
+}
+/* 让下面的两个和上面的两个有距离 */
+.horizontal3,.horizontal4{
+	margin-top: 16px;
+}
+/* 中间的闪图 */
+.imgVary{
+	width:732px;
+	height:122px;
+	margin-top: 16px;
+}
+
+/* 热卖商城 */
+.imgList{
+	width: 732px;
+	height: 340px;
+	margin-top: 16px;
+}
+/* 联系我们 */
+.contact{
+	width: 732px;
+	height: 134px;
+	margin-top: 16px;
+}
+
+/* 右边 */
+.right{
+	width: 259px;
+	height: auto;
+	float: left;
+}
+
+/* 用户登录 */
+.login{
+	width: 259px;
+	height: 250px;
+	float: left;
+}
+
+/* 右边的小列表 */
+.verticalList{
+	width: 258px;
+	height: 296px;
+	float: left;
+	margin-top: 16px;
+}
+
+

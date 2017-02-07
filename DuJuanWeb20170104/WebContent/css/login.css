@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*用户登录*/
+
+
+/*大容器*/
+
+.loginMax {
+	width: 259px;
+	height: 250px;
+}
+
+
+/*标题*/
+
+.loginTitle {
+	width: 258px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	overflow: hidden;
+	/*防止换行*/
+}
+
+
+/*表单文字*/
+
+.loginText {
+	width: 210px;
+	height: 41px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+/*自动登录样式*/
+.loginLanding {
+	margin-left: 60px;
+}
+
+
+/*按钮*/
+
+.loginButton {
+	width: 80px;
+	height: 32px;
+	margin-left: 32px;
+	margin-top: 5px;
+}
+
+
+/*忘记密码*/
+.forgotPassword{
+	width: 240px;
+	height: 20px;
+	text-align: right;
+}

@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+
+/*大盒子*/
+.indexLink{
+	width:1000px;
+	height:190px;
+	}
+	
+/*标题*/
+.indexLinkTitle{
+	width:1000px;
+	height:40px;
+	}
+	
+/*标题的内容*/
+.indexFrameTitleText{
+	width:100px;
+	height:40px;
+	float:left;
+	line-height:40px;
+	text-align:center;}
+	
+/*更多*/
+.indexLinkTitleMore{
+	line-height:40px;
+	margin-left:930px;}
+	
+/*内容*/
+.indexLinkContent table{
+	}
+	
+/*图片盒子*/
+.indexLinkImage{
+	width:150px;
+	height:80px;
+	padding-left:15px;}
+/*图片*/
+.indexLinkImage img{
+	width:142px;
+	height:53px;
+	}
+	
+/*版权*/
+.copyright{
+	width:1000px;
+	height:60px;
+	line-height:30px;
+	text-align:center;
+	}

@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+/*横版小列表*/
+
+
+/*最大的框架*/
+
+.indexFrame {
+	width: 358px;
+	height: 166.8px;
+	float: left;
+}
+
+
+/*标题大容器*/
+
+.indexFrameTitle {
+	width: 358px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/*标题内容*/
+
+.indexFrameTitleText {
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/*更多*/
+
+.indexFrameTitleMore {
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin-left: 190px;
+}
+
+
+/*列表容器*/
+
+.indexFrameContentList {
+	width: 358px;
+	height: 126.8px;
+	line-height: 25px;
+}
+
+
+/*项目符号*/
+
+.indexFrameContentSymbol {
+	width: 12px;
+	height: 7px;
+	float: left;
+	background-position: center;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}

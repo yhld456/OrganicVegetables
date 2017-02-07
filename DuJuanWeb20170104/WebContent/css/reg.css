@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/*用户注册*/
+.userReg{
+	width: 736px;
+	height: 471px;
+}
+
+/*标题大盒子*/
+.regTitle{
+	width: 736px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+/*标题文字*/
+.regTitleText{
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*表单*/
+.regForm{
+	width: 736px;
+	height: 431px;
+}
+
+/*账号信息*/
+.accountInfo{
+	width: 736px;
+	height: 155.5px;
+}
+
+/*标题*/
+.accountInfoTitle{
+	width: 716px;
+	height: 22px;
+	margin: 50px 0px 0px 20px;
+}
+
+/*内容*/
+.accountInfoContent{
+	width: 686px;
+	height: 133.5px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+/*用户信息*/
+.userInfo{
+	width: 736px;
+	height: 155.5px;
+}
+
+/*标题*/
+.userInfoTitle{
+	width: 716px;
+	height: 22px;
+	margin: 50px 0px 0px 20px;
+}
+
+/*内容*/
+.userInfoContent{
+	width: 686px;
+	height: 183.5px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+/*提交按钮*/
+.submitButton{
+	width: 636px;
+	height: 27px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+

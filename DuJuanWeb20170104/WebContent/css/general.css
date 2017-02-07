@@ -1,0 +1,216 @@
+﻿@charset "utf-8";
+/*全局的样式*/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+/*全局字体*/
+
+
+/*全局字体1*/
+.font1 {
+	font-family: "微软雅黑";
+}
+
+.font2{
+	color: brown;
+	font-weight: bold;
+}
+
+/*网站标题的字体*/
+
+.titleFont {
+	font-family: "楷体";
+	font-size: 40px;
+	font-weight: bold;
+	color: green;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 128, 0, 1)), to(rgba(51, 51, 51, 1)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/*全局链接样式*/
+
+/*全局链接1*/
+
+.href1 a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+}
+
+
+
+/*收藏网站的链接样式*/
+.href3 a {
+	color: #465c71;
+}
+
+/*导航条链接的样式*/
+.href4 a,
+.href4 a:visited {
+	background-color: #465c71;
+	/* 背景色 */
+	border: 1px #4e667d solid;
+	/* 边框 */
+	color: #dde4ec;
+	/* 文字颜色 */
+}
+
+.href4 a:hover {
+	background-color: #bfcbd6;
+	/* 背景色 */
+	color: #465c71;
+	/* 文字颜色 */
+}
+
+
+/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
+
+.href4 a:active {
+	background-color: #465c71;
+	/* 背景色 */
+	color: #cfdbe6;
+	/* 文字颜色 */
+}
+
+
+.href5 a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color:#ffffff;
+	font-size:14px;
+	}
+
+.href6 a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: #465c71;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/*背景颜色*/
+.bgcolor1{
+	background-color: #F9F9F9;
+}
+.bgcolor2{
+	background-color: #465c71;
+}
+.bgcolor3{
+	background: url(../image/li_1.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*字体颜色*/
+.color1{
+	color: #FFFFFF;
+}
+.color2{
+	color:#999999;
+}
+.color3{
+	color: #465c71;
+}
+.color4{
+	color: #69291f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*边框样式*/
+.border1{
+	border: 1px solid #E8E8E8;
+}
+
+.border2{
+	border-bottom: 1px dashed #E8E8E8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*阴影样式*/
+.shadow1{
+	-moz-box-shadow: 2px 2px 5px #465c71;
+	-webkit-box-shadow: 2px 2px 5px #465c71;
+	box-shadow: 2px 2px 5px #465c71;
+}
+
+
+
+
+
+

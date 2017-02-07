@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+/*用于显示新闻的列表的样式*/
+
+/* 最大的盒子 */
+.textListMax{
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+
+
+/* 中间左 */
+.left{
+	width: 259px;
+	height: auto;
+	float: left;
+}
+
+/* 用户登录 */
+.login{
+	width: 259px;
+	height: 250px;
+	float: left;
+}
+
+/* 左边的小列表 */
+.verticalList{
+	width: 258px;
+	height: 296px;
+	float: left;
+	margin-top: 16px;
+}
+
+/* 左边图片小列表 */
+.imgMinList{
+	width:258px;
+	height:1124px;
+	float: left;
+	margin-top: 16px;
+}
+
+/* 中间右 */
+.right{
+	width: 741px;
+	height: auto;
+	float: left;
+}
+
+/* 文字大列表 */
+.workList{
+	width: 730px;
+	height: 350px;
+	margin-left:10px
+}
+
+
+

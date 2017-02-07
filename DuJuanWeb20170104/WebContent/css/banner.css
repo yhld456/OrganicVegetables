@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+
+/*网站的标题、导航、大图轮番*/
+
+/*最大的容器*/
+.topMax {
+	width: 1000px;
+	height: 430px;
+}
+
+/*网站的标题*/
+.topImage {
+	width: auto;
+	height: 50px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+
+
+
+/*收藏网站*/
+.topLink {
+	height: 75px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 500px;
+}
+
+/*收藏网站的链接样式*/
+.topLink a {
+	font-size: 14px;
+	font-family: "宋体";
+	text-decoration: none;
+}
+
+/*导航条容器*/
+.topMenu {
+	width: 1000px;
+	height: 40px;
+}
+
+/*导航条无序列表*/
+.topMenu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 40px;
+}
+
+/*导航条的每一条内容*/
+.topMenu ul li {
+	width: 100px;
+	height: 40px;
+	float: left;
+	text-align: center;
+}
+
+/*导航条链接的样式*/
+.topMenu ul li a,
+.topMenu ul li a:visited {
+	display: block;
+	/* 此元素将显示为块级元素，此元素前后会带有换行符 */
+	line-height: 20px;
+	/* 行高 */
+	padding: 4px 20px;
+	/* 内部填充的距离 */
+	text-decoration: none;
+	/* 不显示超链接下划线 */
+	white-space: nowrap;
+	/* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
+}
+
+.topMenu ul li a:hover {
+	text-decoration: none;
+	/* 不显示超链接下划线 */
+}
+
+
+/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
+
+.topMenu ul li a:active {
+	text-decoration: none;
+	/* 不显示超链接下划线 */
+}
+
+/*大图轮番*/
+.topImageRoll {
+	width: 1000px;
+	height: 270px;
+}

@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+/*大页面公共*/
+/* 背景 */
+body{
+	background: url(../image/bg.png) repeat-x;
+}
+/* 导航 */
+.banner{
+	width: 1000px;
+	height: 430px;
+}
+
+/* 友情链接和版权 */
+.friendshipLink{
+	width:1000px;
+	height:190px;
+	margin-top: 16px;
+	float: left;
+	margin-bottom:16px;
+}

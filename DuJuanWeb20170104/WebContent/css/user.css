@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+/*用户登录后的界面的样式*/
+
+/*大容器*/
+
+.userMax {
+	width: 259px;
+	height: 250px;
+}
+
+
+/*标题*/
+
+.userTitle {
+	width: 258px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	overflow: hidden;
+	/*防止换行*/
+}
+
+
+/*用户信息*/
+.userInfo{
+	width: 258px;
+	height: 139px;
+}
+
+/*用户信息表格*/
+.userTab{
+	width: 258px;
+	height: 100px;
+	text-align: center;
+	margin-top: 25px;
+	line-height: 25px;
+}
+
+
+/*表格左边的元素*/
+.sheel1{
+	text-align: center;
+}
+
+/*表格右边的元素*/
+.sheel2{
+	text-align: left;
+}
+

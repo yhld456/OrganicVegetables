@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+
+/*图片列表*/
+
+/*热卖商城*/
+.indexShopping {
+	width: 730px;
+	height: 348px;
+	margin-top: 10px;
+}
+
+/*标题*/
+.indexFrameTitle {
+	width: 730px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/*标题文字*/
+.indexFrameTitleText {
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*更多*/
+.indexShoppingMore {
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin-left: 560px;
+}
+
+/*图片表格样式*/
+.indexShoppingImage td,
+.indexShoppingText td {
+	padding-left: 25px;
+	width: 161px;
+}
+
+/*图片的高度*/
+.indexShoppingImage td {
+	height: 121px;
+}

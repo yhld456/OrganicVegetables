@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+/*文章列表*/
+
+/*大盒子*/
+.list1 {
+	width: 730px;
+	height: 350px;
+}
+
+/*标题大盒子*/
+.listFrameTitle {
+	width: 730px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题文字*/
+.listFrameTitleText {
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题更多*/
+.listShoppingMore {
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin-left: 550px;
+}
+
+
+/*列表的盒子*/
+.indexFrameContentList {
+	width: 730px;
+	height: 126.8px;
+	line-height: 25px;
+}
+
+/*列表的一个记录*/
+.indexFrameContent{
+	width: 730px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*项目符号*/
+.indexFrameContentSymbol {
+	width: 12px;
+	height: 7px;
+	float: left;
+	background-position: center;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}

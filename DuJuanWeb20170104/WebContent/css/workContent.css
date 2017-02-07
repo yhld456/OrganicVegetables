@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/*文章内容*/
+
+/*大盒子*/
+.list1 {
+	width: 730px;
+	height: auto;
+}
+
+/*标题*/
+.listFrameTitle {
+	width: 730px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题文字*/
+.listFrameTitleText {
+	width: 700px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+/*文章的内容*/
+.indexFrameContentList {
+	width: 730px;
+	height: auto;
+	line-height: 25px;
+	word-wrap:break-word; 
+	/*overflow:hidden;*/
+}
+
+/*来源*/
+.source{
+	width: 730px;
+	height: 20px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}

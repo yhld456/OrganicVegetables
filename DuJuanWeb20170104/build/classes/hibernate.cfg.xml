@@ -1,0 +1,31 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<!-- 配置数据库连接信息 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/manager</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">123456</property>
+		<!-- 数据库方言 -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+			<!-- 配置是否打印sql语句 -->
+	<property name="show_sql">true</property>
+	<!-- 格式化sql语句 -->
+	<property name="format_sql">true</property>
+	<!-- 数据库的更新方法
+		create:每次执行都先把原有数据表删掉，然后创建该表
+		create-drop:在显示关闭SessionFactory时删除对应的数据表
+		validate:检测存在与否
+		update:发现没有表的时候创建表，如果有就不用创建
+	 -->
+	<property name="hbm2ddl.auto">update</property>
+		
+		<mapping resource="com/entity/User.hbm.xml" />
+		
+	</session-factory>
+	
+</hibernate-configuration>
+

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*发布商品*/
+
+/*最大的盒子*/
+.publishGoodsMax{
+	width: 788px;
+	height: auto;
+}
+
+/*标题盒子*/
+.publishGoodsMaxTitle{
+	width: 788px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题文字*/
+.publishGoodsMaxTitleText{
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*表格*/
+.publishGoodsTab{
+	width: 788px;
+	height: 120px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+/*右边的单元格*/
+.sheel5{
+	width: 600px;
+	text-align: left;
+}
+
+/*标题文本框*/
+.titleInput input{
+	width: 500px;
+}
+
+/*内容文本域*/
+.textArea{
+	width: 500px;
+	height: 200px;
+}
+

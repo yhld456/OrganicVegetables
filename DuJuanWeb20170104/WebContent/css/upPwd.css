@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+/*修改密码*/
+
+/*最大的盒子*/
+.upPwdMax{
+	width: 788px;
+	height: auto;
+}
+
+/*标题的盒子*/
+.upPwdMaxTitle{
+	width: 788px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题的文字*/
+.upPwdMaxTitleText{
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/*表单的表格*/
+.upPwdTab{
+	width: 788px;
+	height: 120px;
+	text-align: center;
+}
+
+
+/*右边的单元格*/
+.sheel3{
+	text-align: left;
+	width: 500px;
+}
+
+
+/*表单的input*/
+.sheel3 input{
+	width: 200px;
+}

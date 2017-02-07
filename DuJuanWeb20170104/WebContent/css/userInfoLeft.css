@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+/*会员中心的左边*/
+
+/*最大的盒子*/
+.userInfoLeftMax{
+	width: 160px;
+	height: auto;
+}
+
+/*头像的盒子*/
+.userImgDiv{
+	width: 160px;
+	height: 147.5px;
+	text-align: center;
+	padding-top: 19.5px;
+}
+
+/*头像的图片*/
+.userImg{
+	width: 128px;
+	height: 128px;
+}
+
+/*会员中心*/
+.userCore{
+	width: 160px;
+	height: auto;
+	margin-top: 16px;
+}
+
+
+/*标题*/
+.userTitle{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+/*内容*/
+.userText{
+	width: 160px;
+	height: auto;
+	text-align: center;
+}
+
+.userText ul{
+	list-style: none;
+	line-height: 46.5px;
+}

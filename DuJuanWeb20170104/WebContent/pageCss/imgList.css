@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+/*图片商城*/
+/* 最大的盒子 */
+.imgListMax{
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+
+/* 中间左 */
+.left{
+	width: 259px;
+	height: auto;
+	float: left;
+}
+
+/* 用户登录 */
+.login{
+	width: 259px;
+	height: 250px;
+	float: left;
+}
+
+/* 左边的小列表 */
+.verticalList{
+	width: 258px;
+	height: 296px;
+	float: left;
+	margin-top: 16px;
+}
+
+
+/* 中间右 */
+.right{
+	width: 741px;
+	height: auto;
+	float: left;
+}
+
+/* 图片大列表 */
+.imgList{
+	width: 730px;
+	height: 350px;
+	margin-left: 10px;
+	margin-top: -10px;
+}

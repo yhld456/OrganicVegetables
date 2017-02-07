@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+/*用户基本信息修改*/
+
+/*最大的盒子*/
+.userBasicInfoMax{
+	width: 788px;
+	height: auto;
+}
+
+/*标题盒子*/
+.userBasicInfoTitle{
+	width: 788px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题内容*/
+.userBasicInfoTitleText{
+	width: 100px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/*表格*/
+.userBasicInfoTab{
+	width: 788px;
+	height: 267px;
+	text-align: center;
+	
+}
+
+
+/*右边的单元格*/
+.sheel3{
+	text-align: left;
+	width: 500px;
+}
+
+/*性别*/
+.sheel4{
+	text-align: left;
+}
+
+/*表单的input*/
+.sheel3 input{
+	width: 200px;
+}

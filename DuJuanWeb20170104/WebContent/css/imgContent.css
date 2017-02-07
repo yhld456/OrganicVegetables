@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+/*图片内容*/
+
+/*最大的盒子*/
+.imgContent{
+	width: 736px;
+	height: auto;
+}
+
+/*标题大盒子*/
+.imgContentTitle{
+	width: 736px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*标题文字*/
+.imgContentTitleText{
+	width: auto;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+/*内容的盒子*/
+.imgContentDiv{
+	width: 736px;
+	height: auto;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+/*表格的标题*/
+.tabTitle{
+	text-align: right;
+	border-bottom: dotted 1px;
+}
+
+/*图片单元格的样式*/
+.imgBorder{
+	border: dotted 1px;
+}
+
+/*表头的大小*/
+.tabSheel1{
+	width: 100px;
+}

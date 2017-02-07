@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/*用户中心的商品列表*/
+
+/*最大的盒子*/
+.goodsListMax{
+	width: 788px;
+	height: auto;
+}
+
+/*表格的盒子*/
+.goodsListTab{
+	width: 788px;
+	height: auto;
+}
+
+/*表格*/
+.goodsListTab table{
+	width: 788px;
+	height: auto;
+}
+
+/*表格的单元格*/
+.goodsListTab td{
+	border: 1px solid;
+	text-align: center;
+}
+
+
+

@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+
+/*小图滚动*/
+
+/* 最大的盒子 */
+.rollMax{
+	width: 732px;
+	height: 135px;
+}
+
+/*坐标标题的样式*/
+.rollTitle {
+	width: 30px;
+	height: 133px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+/*商品名称的字体*/
+.rollText {
+	text-align: center;
+	font-family: "宋体";
+}
+
+
+/*滚动相关的*/
+
+#demo {
+	background: #FFF;
+	overflow: hidden;
+	border: 1px dashed #CCC;
+	width: 700px;
+	float: left;
+}
+
+#demo img {
+	border: 3px solid #F2F2F2;
+	width: 158px;
+	height: 103px;
+}
+
+#indemo {
+	float: left;
+	width: 800%;
+}
+
+#demo1 {
+	float: left;
+}
+
+#demo2 {
+	float: left;
+}
